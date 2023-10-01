@@ -103,10 +103,10 @@ export default function Product () {
                           {product.name}
                         </h1>
                         <div style={{ fontSize: 25, marginTop: 40}}>
-                          Por R$ {product.price}
+                          Por R$ {product.price.toFixed(2)}
                         </div>
                         <div>
-                          <span className="h6 font-weight-300">Frete: R$ {product.tax}</span>
+                          <span className="h6 font-weight-300">Frete: R$ {product.tax.toFixed(2)}</span>
                         </div>
                         <div>
                           <span className="h6 font-weight-300">Tamanho: {product.size}</span>
