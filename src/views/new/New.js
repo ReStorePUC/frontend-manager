@@ -25,7 +25,19 @@ import { getValue } from "../../service/storage"
 const options = [
   { value: '1', label: 'Chapéus' },
   { value: '2', label: 'Cabelo' },
-  { value: '3', label: 'Feminino' }
+  { value: '3', label: 'Camiseta' },
+  { value: '4', label: 'Camisa' },
+  { value: '5', label: 'Calça' },
+  { value: '6', label: 'Shorts' },
+  { value: '7', label: 'Masculino' },
+  { value: '8', label: 'Vestido' },
+  { value: '9', label: 'Bonés' },
+  { value: '10', label: 'Antigo' },
+  { value: '11', label: 'Usado' },
+  { value: '12', label: 'Novo' },
+  { value: '13', label: 'Sapatos' },
+  { value: '14', label: 'Sandálias' },
+  { value: '15', label: 'Tênis' },
 ]
 
 export default function New () {

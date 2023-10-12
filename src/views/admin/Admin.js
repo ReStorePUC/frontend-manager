@@ -57,7 +57,7 @@ export default function Admin () {
     try {
       const user = getValue()
 
-      const result = await api.get(`user/private/store/search?name=${name}`, {
+      const result = await api.get(`user/store/admin/search?name=${name}`, {
         headers: {
           "Authorization": `Bearer ${user.JWT}`
         }

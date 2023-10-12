@@ -51,10 +51,10 @@ export default function Login() {
 
       setValue({
         JWT: result.data.JWT,
-        IsMasterAdimin: email === 'matheus@email.com',
+        IsMasterAdimin: email === 'matheus3@brecho.com',
       });
 
-      if (email === 'matheus@email.com') {
+      if (email === 'matheus3@brecho.com') {
         navigate('/admin')
         return;
       }
